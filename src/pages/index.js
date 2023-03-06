@@ -1,3 +1,5 @@
+import Articles from "../../components/Articles";
+import Episodes from "../../components/Episodes";
 import Footer from "../../components/Footer";
 import Hero from "../../components/Hero";
 import Navbar from "../../components/Navbar";
@@ -10,7 +12,8 @@ export default function Home() {
       <Navbar/>
       <Hero/>
       <Podcast/>
-      <Footer/>
+      <Episodes/>
+      <Articles/>
     </div>
   )
 }

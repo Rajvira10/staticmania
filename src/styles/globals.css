@@ -5,4 +5,11 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+.apple{
+    background: linear-gradient(180deg, #F452FF 0.02%, #832BC1 99.77%);
+    padding: 2px;
+    border-radius: 4px;
 }
